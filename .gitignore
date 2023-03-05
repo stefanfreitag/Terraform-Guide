@@ -1,6 +1,0 @@
-# Hugo
-workshop/resources/_gen/
-.hugo_build.lock
-
-# VS Code plugins
-.history
