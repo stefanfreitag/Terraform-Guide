@@ -1,7 +1,6 @@
 +++
 title = 'tfswitch'
 type = 'docs'
-weight = 10
 +++
 
 
