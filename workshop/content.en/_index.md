@@ -1,7 +1,6 @@
 +++
 title = 'My Terraform Learnings'
 type = 'docs'
-weight = 10
 +++
 
 
