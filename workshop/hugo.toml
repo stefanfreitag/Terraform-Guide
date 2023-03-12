@@ -1,7 +1,7 @@
 title = 'My Terraform learnings'
 theme = 'hugo-book'
 
-baseURL='https://stefanfreitag.github.io/Terraform-Guide/'
+#baseURL='https://stefanfreitag.github.io/Terraform-Guide/'
 
 # Book configuration
 disablePathToLower = true
