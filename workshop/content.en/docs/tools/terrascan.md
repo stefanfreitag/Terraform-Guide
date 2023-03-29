@@ -3,6 +3,10 @@ title = 'terrascan'
 type = 'docs'
 +++
 
+## In one sentence
+
+Terrascan is a static code analyzer for Infrastructure as Code.
+
 ## Installation
 
 ```shell
@@ -13,15 +17,20 @@ sudo install terrascan /usr/local/bin && rm terrascan
 
 ## Usage
 
-- Execution
+- Initialize _terrascan_. As part of this step policies from the Terrascan
+GitHub repository are cloned to _~/.terrascan/pkg/policies/opa/rego_.
 
   ```shell
   terrascan init
-  terrascan scan
   ```
 
-- Scanning of Terraform HCL2 files for AWS resources
+- Scanning of Terraform files
 
   ```shell
-  terrascan  scan -t aws
+  terrascan scan -i terraform
   ```
+
+## Links
+
+- [Github Repository](https://github.com/tenable/terrascan)
+- [Documentation](https://runterrascan.io/docs/)

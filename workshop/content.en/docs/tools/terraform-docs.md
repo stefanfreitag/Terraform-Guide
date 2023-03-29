@@ -45,7 +45,7 @@ needs to be adjusted.
 terraform-docs markdown table --output-file README.md --output-mode inject /path/to/module
 ```
 
-If you would not like to pass the configuration on the CLI, create a file _terraform-docs.yml_
+If you would not like to pass the configuration on the CLI, create a file _.terraform-docs.yml_
 in the root directory of the Terraform module.
 
 ```yaml
